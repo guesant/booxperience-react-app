@@ -1,0 +1,7 @@
+{
+  "name": "booxperience-react-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
