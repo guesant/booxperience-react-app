@@ -23,11 +23,13 @@ import "@ionic/react/css/display.css";
 import "./theme/variables.css";
 
 import Home from "./pages/Home";
+import Welcome from "./pages/Welcome/Welcome";
 
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
+        <Route exact path="/welcome/" component={Welcome} />
         <Route exact path="/home" component={Home} />
         <Route exact path="/" render={() => <Redirect to="/home" />} />
       </IonRouterOutlet>

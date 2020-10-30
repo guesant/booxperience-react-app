@@ -1,0 +1,6 @@
+@media (min-width: 576px) {
+  .welcome-slide {
+    max-width: 570px;
+    margin: 0 auto;
+  }
+}
